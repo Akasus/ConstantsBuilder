@@ -1,0 +1,34 @@
+{
+  "Document": [
+    {
+      "StructName": "Constants",
+      "Constants": null,
+      "SubStruct": [
+        {
+          "StructName": "<MyCondition>SubConstants",
+          "Constants": [
+            "constant1",
+            "constant2 = Value"
+          ],
+          "SubStruct": [
+            {
+              "StructName": "SubsubConstants",
+              "Constants": [
+                "<MyPreprocessorCondition>constant1"
+              ],
+              "SubStruct": [
+                {
+                  "StructName": "SubSubSubConstants",
+                  "Constants": [
+                    "myConstant"
+                  ],
+                  "SubStruct": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
